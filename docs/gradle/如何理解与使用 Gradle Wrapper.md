@@ -34,7 +34,7 @@ Wrapper 可以理解为 Gradle 官方推出的一款“自动化的 Gradle 安�
 └── settings.gradle.kts
 ```
 
-下面是 Wrapper 相关文件的简单介绍：
+这里对 Wrapper 相关文件简单介绍：
 - `gradle-wrapper.jar`：这是一个可执行 `jar` 格式的文件，职责是下载 Gradle 二进制分发包；
 - `gradle-wrapper.properties`：通过该配置文件我们可以配置 Wrapper 运行时的一些信息，如：
 Gradle 版本、下载的 Gradle 的存储路径等；
@@ -43,7 +43,7 @@ Gradle 版本、下载的 Gradle 的存储路径等；
 
 ## Gradle Wrapper 的工作流程
 
-接下来简单了解下 Wrapper 的工作流程，以对它有个整体认知。下面是来自[官网](https://docs.gradle.org/current/userguide/gradle_wrapper.html)的 Wrapper 工作流程图：
+接下来简单了解 Wrapper 的工作流程，以对它有个整体认知。这是来自[官网](https://docs.gradle.org/current/userguide/gradle_wrapper.html)的 Wrapper 工作流程图：
 
 
 ![ Gradle Wrapper 的工作流程|700](https://raw.githubusercontent.com/yuki-mirai/pic-hub/main/images/2022-10-10/22-35-2022-10-10@22.35.04@2x.png)
